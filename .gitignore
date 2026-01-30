@@ -208,3 +208,8 @@ __marimo__/
 
 .migrations/
 .DS_Store
+
+# Django migrations
+**/migrations/
+!**/migrations/__init__.py
+
