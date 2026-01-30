@@ -1,7 +1,10 @@
 from django.shortcuts import render, redirect
+from django.http import HttpResponse
+
 from members_app.models import Member
-from .forms import MemberForm
 from members_app.signals import course_member_synced
+
+from .forms import MemberForm
 
 
 def member_list(request):
